@@ -17,5 +17,7 @@ void AddNode(){
     Node* newNode = new Node();
     cout << "\nEnter the roll of the student: ";
     cin >> newNode -> noMhs;
+    cout << "\nEnter the name of the student: ";
+    cin >> newNode -> name;
 
 }
