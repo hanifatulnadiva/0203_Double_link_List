@@ -14,6 +14,6 @@ struct Node
 Node* START = NULL;
 
 void AddNode(){
-    
+    Node* newNode = new Node();
 
 }
