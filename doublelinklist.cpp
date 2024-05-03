@@ -186,5 +186,10 @@ void searchData()
         cout << "\nRoll number: " << curr -> noMhs << endl;
         cout << "\nNae: " << curr -> name << endl;
     }
-
 }
+
+int main()
+{
+    
+}
+
