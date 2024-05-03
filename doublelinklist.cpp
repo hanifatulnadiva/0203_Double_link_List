@@ -81,5 +81,8 @@ void deleteNode()
     Node *previous, *current;
     int rollNo;
 
+    cout << "\nEnter the roll number of the student whose record is to be deleted: ";
+    cin >> rollNo;
+
     
 }
