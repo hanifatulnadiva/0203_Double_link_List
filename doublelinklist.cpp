@@ -101,5 +101,14 @@ void deleteNode()
         cout << "\033[31mThe e=record with thw roll number"<< rollNo << "not found\033[0m" << endl;
         return;
     }
+    if ( current == START)
+    {
+        START = START -> next;
+        if (START != NULL)
+        {
+            START ->prev = NULL;
+        }
+    }
+    
     
 }
